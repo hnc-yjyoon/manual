@@ -10,8 +10,8 @@ theme = ["docsy"]
 enableGitInfo = true
 
 # Language settings
-contentDir = "content/en"
-defaultContentLanguage = "en"
+contentDir = "content/ko"
+defaultContentLanguage = "ko"
 defaultContentLanguageInSubdir = false
 # Useful when translating.
 enableMissingTranslationPlaceholders = true
@@ -69,27 +69,18 @@ id = "UA-00000000-0"
 # Language configuration
 
 [languages]
+[languages.ko]
+title = ""
+languageName = "Korean"
+#contentDir = "content/ko"
+weight = 1
+
 [languages.en]
-title = "Goldydocs"
+title = ""
 description = "A Docsy example site"
 languageName ="English"
-# Weight used for sorting.
+contentDir = "content/en"
 weight = 1
-[languages.no]
-title = "Goldydocs"
-description = "Docsy er operativsystem for skyen"
-languageName ="Norsk"
-contentDir = "content/no"
-time_format_default = "02.01.2006"
-time_format_blog = "02.01.2006"
-
-[languages.fa]
-title = "اسناد گلدی"
-description = "یک نمونه برای پوسته داکسی"
-languageName ="فارسی"
-contentDir = "content/fa"
-time_format_default = "2006.01.02"
-time_format_blog = "2006.01.02"
 
 [markup]
   [markup.goldmark]
@@ -110,6 +101,11 @@ section = ["HTML", "print", "RSS"]
 [params]
 copyright = "The Docsy Authors"
 privacy_policy = "https://policies.google.com/privacy"
+
+[[menu.main]]
+    name = "About"
+    weight = 10
+    url = "/"
 
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]
