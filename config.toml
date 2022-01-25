@@ -70,13 +70,13 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.ko]
-title = ""
+title = "한컴구름"
 languageName = "Korean"
 #contentDir = "content/ko"
 weight = 1
 
 [languages.en]
-title = ""
+title = "한컴구름"
 description = "A Docsy example site"
 languageName ="English"
 contentDir = "content/en"
@@ -102,10 +102,10 @@ section = ["HTML", "print", "RSS"]
 copyright = "The Docsy Authors"
 privacy_policy = "https://policies.google.com/privacy"
 
-[[menu.main]]
-    name = "About"
-    weight = 10
-    url = "/"
+#[[menu.main]]
+#    name = "About"
+#    weight = 10
+#    url = "/"
 
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]
