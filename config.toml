@@ -101,6 +101,7 @@ section = ["HTML", "print", "RSS"]
 [params]
 copyright = "The Docsy Authors"
 privacy_policy = "https://policies.google.com/privacy"
+images = ['image/homeicon_512.png']
 
 #[[menu.main]]
 #    name = "About"
