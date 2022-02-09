@@ -1,5 +1,5 @@
-baseURL = "/"
-title = "Goldydocs"
+baseURL = "https://docs.apps.blackwhale.cloud.hancom.com/"
+title = "hancom developers manual"
 
 enableRobotsTXT = true
 
