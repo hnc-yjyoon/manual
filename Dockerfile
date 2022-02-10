@@ -1,4 +1,4 @@
 FROM klakegg/hugo:ext-alpine
 WORKDIR /src
 COPY . .
-CMD ["server", "--baseURL=", "https://docs.apps.blackwhale.cloud.hancom.com"]
+CMD ["server", "-p", "8080", "--baseURL=", "https://docs.apps.blackwhale.cloud.hancom.com"]
